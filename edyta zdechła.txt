@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mObywatel Klon</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        input { display: block; margin: 10px auto; padding: 10px; }
+        button { padding: 10px 20px; }
+    </style>
+</head>
+<body>
+    <h1>Witaj edyta dzisiaj zdechnie</h1>
+    <p>Wprowadź dane logowania:</p>
+    <input type="text" placeholder="ile kutasów miała edyta">
+    <input type="hasło do pizdy edyty" placeholder="Hasło">
+    <button onclick="login()">zabij edyte</button>
+
+    <script>
+        function login() {
+            alert("edyta to zdechlak");
+        }
+    </script>
+</body>
+</html>
